@@ -79,6 +79,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.compose.material3:material3-window-size-class-android:1.2.0")
 
+    implementation("androidx.compose.material3:material3-window-size-class")
+
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.06.00"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
